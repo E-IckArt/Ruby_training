@@ -12,3 +12,8 @@ state = gets.upcase!.chomp
 
 puts "Your first name is #{first_name}, your last name is #{last_name}, your city is #{city}, your state is #{state}."
 
+
+# Autre exemple :
+puts "Entrez votre prénom : "
+prenom = gets.chomp
+puts "Salut #{prenom} comment vas-tu ?" 
