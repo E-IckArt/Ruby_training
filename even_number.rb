@@ -9,3 +9,9 @@ if nombre.even?
 else
     puts "Ce nombre est impair"
 end
+
+
+# Vérifier si la condition n'est pas vraie
+if !nombre.even?
+    puts "#{nombre} est un nombre impair"
+end
