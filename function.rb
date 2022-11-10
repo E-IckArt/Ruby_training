@@ -30,7 +30,6 @@ def is_a_positive_or_negatif_number()
         puts "You picked a negative integer!"
     elsif user_num > 0
         puts "You picked a positive integer!"
-        end
     else
         puts "You picked zero!"
     end
@@ -38,7 +37,7 @@ end
 
 
 # Function using unless (= while)
-is_a_positive_or_negatif_number()
+is_a_positive_or_negative_number()
 
 def unless_hungry()
 
