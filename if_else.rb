@@ -1,4 +1,5 @@
 # Even or odd number
+puts 'Ex 1'
 
 print "Please enter your integer : "
 user_num = Integer(gets.chomp)
@@ -11,6 +12,8 @@ end
 
 
 # Greather or less than
+puts 'Ex 2'
+
 print "Please enter your first integer : "
 user_num_1 = Integer(gets.chomp)
 
@@ -24,3 +27,10 @@ elsif user_num_1 > user_num_2
 else
     puts "#{user_num_1} equals #{user_num_2}"
 end
+
+# The if modifier can also be used to execute code.
+puts 'Ex 3'
+
+a = 30
+puts "a is greater than 10" if a > 10
+
